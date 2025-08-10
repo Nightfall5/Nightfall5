@@ -1,16 +1,14 @@
-## Hi there 👋
+# Hi 👋, saya **Nama Kamu**
 
-<!--
-**Nightfall5/Nightfall5** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Saya web developer & designer. Ini profil saya — proyek, pengalaman, dan hal-hal keren.
 
-Here are some ideas to get you started:
+- 🔭 Sedang: Membangun **Landing Page Parfume**
+- 🌱 Belajar: Animasi web & game kecil (HTML/Canvas)
+- 📫 Hubungi: email@domain.com
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[► Lihat mini-game saya](https://username.github.io)
+
+![Animated banner](https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif)
+
+---
+*Diterbitkan otomatis oleh GitHub — ubah sesuai kebutuhan.*
