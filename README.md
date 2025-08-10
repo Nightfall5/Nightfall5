@@ -3,8 +3,8 @@
 Saya web developer & designer. Ini profil saya — proyek, pengalaman, dan hal-hal keren.
 
 - 🔭 Sedang: Membangun **Landing Page Parfume**
-- 🌱 Belajar: Animasi web & game kecil (HTML/Canvas)
-- 📫 Hubungi: email@domain.com
+- 🌱 Belajar: Animasi web & game (HTML/Canvas)
+- 📫 Hubungi: rayhanadhyfafirdaus1@domain.com
 
 [► Lihat mini-game saya](https://username.github.io)
 
