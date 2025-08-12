@@ -1,10 +1,10 @@
-# Hi 👋, saya **Nama Kamu**
+# Hi 👋, saya Rayhan Adhyfa Firdaus
 
 Saya web developer & designer. Ini profil saya — proyek, pengalaman, dan hal-hal keren.
 
 - 🔭 Sedang: Membangun **Landing Page Parfume**
 - 🌱 Belajar: Animasi web & game (HTML/Canvas)
-- 📫 Hubungi: rayhanadhyfafirdaus1@domain.com
+- 📫 Hubungi: rayhanadhyfafirdaus1@gmail.com
 
 [► Lihat mini-game saya](https://username.github.io)
 
