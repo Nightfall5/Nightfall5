@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+  <title id="title">Orbit Breaker — Adhy Arcade</title>
+  <desc id="desc">A neon arcade game preview showing a spaceship, glowing energy orbs, and asteroids in a dark starfield.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c1b2a"/>
+      <stop offset=".58" stop-color="#08111d"/>
+      <stop offset="1" stop-color="#101329"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8af1e6"/>
+      <stop offset=".55" stop-color="#83aaff"/>
+      <stop offset="1" stop-color="#c0a7ff"/>
+    </linearGradient>
+    <radialGradient id="orb">
+      <stop offset="0" stop-color="#effffb"/>
+      <stop offset=".2" stop-color="#83fff3"/>
+      <stop offset="1" stop-color="#43cfc8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="9" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#8cb7c7" stroke-opacity=".09" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="1200" height="460" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="460" rx="22" fill="url(#grid)"/>
+  <circle cx="870" cy="215" r="200" fill="#276878" opacity=".12"/>
+  <g fill="#c4f6ff" opacity=".55">
+    <circle cx="720" cy="58" r="2"/><circle cx="795" cy="121" r="1.5"/><circle cx="1090" cy="74" r="2"/><circle cx="1030" cy="330" r="1.5"/><circle cx="680" cy="375" r="1.5"/><circle cx="920" cy="35" r="1"/>
+  </g>
+  <g transform="translate(890 222)" filter="url(#glow)">
+    <ellipse rx="190" ry="73" fill="none" stroke="#7be9e5" stroke-opacity=".36" stroke-width="2" transform="rotate(-25)"/>
+    <ellipse rx="155" ry="92" fill="none" stroke="#aa9cff" stroke-opacity=".25" stroke-width="2" transform="rotate(51)"/>
+    <path d="M0 -65 43 28 0 11 -43 28Z" fill="#91fff1" stroke="#e4fffb" stroke-width="3"/>
+    <path d="M0 -42 11 8 -11 8Z" fill="#17415d"/>
+    <path d="M-12 27 0 58 12 27Z" fill="#69e6e1" opacity=".85"/>
+    <circle cx="126" cy="-43" r="15" fill="url(#orb)"/>
+    <circle cx="-140" cy="28" r="13" fill="url(#orb)"/>
+  </g>
+  <g transform="translate(1090 205) rotate(25)">
+    <path d="M0 -25 22 -13 28 10 4 28 -24 15 -20 -14Z" fill="#17273a" stroke="#ac9cff" stroke-width="2"/>
+    <path d="M-10 -9 5 -15 15 2" fill="none" stroke="#d9d1ff" stroke-opacity=".4" stroke-width="2"/>
+  </g>
+  <g transform="translate(740 322) rotate(-18)">
+    <path d="M0 -19 20 -9 17 15 -8 22 -21 1Z" fill="#17273a" stroke="#79b5d6" stroke-width="2"/>
+  </g>
+  <g transform="translate(72 72)">
+    <rect width="116" height="28" rx="14" fill="#102837" stroke="#407b82" stroke-opacity=".8"/>
+    <circle cx="16" cy="14" r="4" fill="#7be9e5"/>
+    <text x="29" y="18" fill="#a9d9db" font-family="monospace" font-size="11" letter-spacing="2">ADHY ARCADE</text>
+  </g>
+  <g transform="translate(70 168)">
+    <text x="0" y="0" fill="#8ba4b4" font-family="monospace" font-size="13" letter-spacing="4">MINI GAME / 001</text>
+    <text x="0" y="83" fill="#eaf4f7" font-family="Arial, sans-serif" font-size="76" font-weight="800" letter-spacing="-4">ORBIT</text>
+    <text x="0" y="158" fill="url(#title)" font-family="Arial, sans-serif" font-size="76" font-weight="800" letter-spacing="-4">BREAKER</text>
+    <text x="3" y="202" fill="#9bb0bc" font-family="Arial, sans-serif" font-size="19">Dodge. Collect. Survive.</text>
+    <g transform="translate(0 246)">
+      <rect width="220" height="52" rx="5" fill="url(#title)"/>
+      <text x="22" y="32" fill="#07121b" font-family="monospace" font-size="14" font-weight="700" letter-spacing="1">PLAY THE GAME  ↗</text>
+    </g>
+  </g>
+  <g transform="translate(72 408)" fill="#617c8d" font-family="monospace" font-size="10" letter-spacing="2">
+    <text>KEYBOARD + TOUCH CONTROLS</text><text x="420">LOCAL HIGH SCORE</text>
+  </g>
+  <rect x=".75" y=".75" width="1198.5" height="458.5" rx="21.25" fill="none" stroke="#7be9e5" stroke-opacity=".25" stroke-width="1.5"/>
+</svg>
