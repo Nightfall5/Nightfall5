@@ -27,6 +27,22 @@ I'm an Informatics student who enjoys turning ideas into useful web applications
 - **Interested in:** frontend engineering, UI/UX, API integration, and data-driven applications.
 - **My approach:** learn by building, test the details, and improve with every iteration.
 
+## 3D motion corner
+
+<div align="center">
+  <a href="https://ai-calypse.github.io/avatar-studio/" title="Open the interactive 3D Avatar Studio">
+    <img
+      src="https://raw.githubusercontent.com/ai-calypse/avatar-studio/main/docs/examples/glossy/bookworm.gif"
+      width="220"
+      alt="Looping glossy 3D bookworm character animation"
+    />
+  </a>
+  <p><strong>A little motion, a lot of curiosity.</strong></p>
+  <a href="https://ai-calypse.github.io/avatar-studio/">Open the interactive 3D Avatar Studio</a>
+  <br />
+  <sub>3D animation asset by <a href="https://github.com/ai-calypse/avatar-studio">AI-Calypse Avatar Studio</a> · MIT License</sub>
+</div>
+
 ## Tech stack
 
 <p align="center">
