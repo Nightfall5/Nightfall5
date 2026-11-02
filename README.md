@@ -38,6 +38,7 @@ I'm an Informatics student who enjoys turning ideas into useful web applications
     />
   </a>
   <p><strong>A little motion, a lot of curiosity.</strong></p>
+  <p><a href="https://nightfall5.github.io/Nightfall5/" title="Open the interactive Three.js developer portfolio"><strong>↗ Open the interactive 3D portfolio</strong></a></p>
   <a href="https://ai-calypse.github.io/avatar-studio/">Open the interactive 3D Avatar Studio</a>
   <br />
   <sub>3D animation asset by <a href="https://github.com/ai-calypse/avatar-studio">AI-Calypse Avatar Studio</a> · MIT License</sub>
