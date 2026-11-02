@@ -11,6 +11,8 @@ let renderer;
 let controls;
 let energyMode = false;
 let animationFrame = 0;
+let sceneClock = null;
+let resumeScene = null;
 let elapsed = 0;
 
 function setSceneFallback(message) {
@@ -214,25 +216,27 @@ function initScene() {
       if (hits.length) toggleEnergyMode();
     });
 
-    const clock = new THREE.Clock();
+    sceneClock = new THREE.Clock();
+    const clock = sceneClock;
     const animate = () => {
       animationFrame = window.requestAnimationFrame(animate);
       const delta = Math.min(clock.getDelta(), 0.04);
       if (document.hidden) return;
-      elapsed += delta;
+      const frameDelta = (!reducedMotion || energyMode) ? delta : 0;
+      elapsed += frameDelta;
 
       const pulse = 1 + Math.sin(elapsed * (energyMode ? 3.1 : 1.55)) * (energyMode ? 0.055 : 0.022);
       sculpture.scale.setScalar(pulse);
-      core.rotation.x += delta * (energyMode ? 0.42 : 0.18);
-      core.rotation.y += delta * (energyMode ? 0.58 : 0.28);
-      innerCore.rotation.x -= delta * 0.16;
-      innerCore.rotation.y += delta * 0.21;
-      wire.rotation.y -= delta * 0.035;
-      wire.rotation.x += delta * 0.018;
-      rings[0].rotation.z += delta * 0.035;
-      rings[1].rotation.x -= delta * 0.024;
-      rings[2].rotation.y += delta * 0.02;
-      stars.rotation.y += delta * 0.003;
+      core.rotation.x += frameDelta * (energyMode ? 0.42 : 0.18);
+      core.rotation.y += frameDelta * (energyMode ? 0.58 : 0.28);
+      innerCore.rotation.x -= frameDelta * 0.16;
+      innerCore.rotation.y += frameDelta * 0.21;
+      wire.rotation.y -= frameDelta * 0.035;
+      wire.rotation.x += frameDelta * 0.018;
+      rings[0].rotation.z += frameDelta * 0.035;
+      rings[1].rotation.x -= frameDelta * 0.024;
+      rings[2].rotation.y += frameDelta * 0.02;
+      stars.rotation.y += frameDelta * 0.003;
       stars.rotation.x = Math.sin(elapsed * 0.08) * 0.025;
 
       satellites.forEach((satellite, index) => {
@@ -243,13 +247,14 @@ function initScene() {
           Math.sin(angle * 1.12 + satellite.tilt) * radius * 0.42,
           Math.sin(angle) * radius * 0.75
         );
-        satellite.mesh.rotation.x += delta * (0.45 + index * 0.08);
-        satellite.mesh.rotation.y += delta * 0.4;
+        satellite.mesh.rotation.x += frameDelta * (0.45 + index * 0.08);
+        satellite.mesh.rotation.y += frameDelta * 0.4;
       });
 
       controls.update();
       renderer.render(scene, camera);
     };
+    resumeScene = animate;
     animate();
   } catch (error) {
     console.error("3D scene initialization failed:", error);
@@ -356,17 +361,12 @@ const currentYear = document.querySelector("#current-year");
 if (currentYear) currentYear.textContent = String(new Date().getFullYear());
 
 document.addEventListener("visibilitychange", () => {
-  if (!renderer) return;
+  if (!renderer || !sceneClock || !resumeScene) return;
   if (document.hidden) {
     window.cancelAnimationFrame(animationFrame);
+    sceneClock.stop();
   } else {
-    const clockReset = performance.now();
-    void clockReset;
-    if (animationFrame) window.cancelAnimationFrame(animationFrame);
-    const canvasEvent = new Event("visibility-resume");
-    canvas.dispatchEvent(canvasEvent);
-    // Re-enter the render loop without accumulating hidden-tab time.
-    renderer.render(renderer.info.reset ? new THREE.Scene() : new THREE.Scene(), new THREE.Camera());
-    window.location.hash;
+    sceneClock.start();
+    resumeScene();
   }
 });
