@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070b12">
+  <meta name="description" content="Play Orbit Breaker, a neon arcade survival game by Rayhan Adhyfa Firdaus. Dodge asteroids, collect energy, and beat your high score.">
+  <meta property="og:title" content="Orbit Breaker — Adhy Arcade">
+  <meta property="og:description" content="Dodge. Collect. Survive. A tiny arcade game built for fun.">
+  <title>Orbit Breaker — Adhy Arcade</title>
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./arcade.css">
+  <script src="./arcade.js" defer></script>
+</head>
+<body>
+  <div class="arcade-noise" aria-hidden="true"></div>
+  <header class="arcade-header">
+    <a class="brand" href="../" aria-label="Back to Adhy portfolio">
+      <span class="brand-mark">A<span>F</span></span>
+      <span class="brand-copy">ADHY<span class="brand-dot">.</span><small>ARCADE DIVISION</small></span>
+    </a>
+    <div class="header-right">
+      <span class="header-status"><i></i> GAME SYSTEM ONLINE</span>
+      <a class="back-link" href="../">PORTFOLIO <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main class="arcade-main">
+    <section class="arcade-intro">
+      <div class="eyebrow"><span></span> MINI GAME / 001 <b>·</b> SKILL: SURVIVAL</div>
+      <h1>ORBIT <span>BREAKER</span></h1>
+      <p>Drift through the debris field. Dodge the rocks, collect energy, and see how long you can stay in orbit.</p>
+    </section>
+
+    <section class="game-layout" aria-label="Orbit Breaker game">
+      <div class="game-column">
+        <div class="game-topbar">
+          <div class="game-title"><span class="game-dot"></span> SECTOR 07 <span class="topbar-divider">/</span> DEEP SPACE</div>
+          <div class="game-live"><span class="live-dot"></span><span id="game-status">STANDBY</span></div>
+        </div>
+
+        <div class="game-frame">
+          <canvas id="game-canvas" width="960" height="620" aria-label="Orbit Breaker game. Use arrow keys or A and D to move your ship, dodge asteroids, and collect energy orbs." role="img"></canvas>
+          <div class="game-overlay" id="game-overlay">
+            <div class="overlay-kicker" id="overlay-kicker">ARCADE CHALLENGE // 001</div>
+            <h2 id="overlay-title">READY TO<br><span>BREAK ORBIT?</span></h2>
+            <p id="overlay-description">Three shields. Endless debris. One shot at a new high score.</p>
+            <button class="start-button" id="start-button" type="button">INITIALIZE RUN <span>↗</span></button>
+            <div class="overlay-hint">PRESS ENTER TO START</div>
+          </div>
+          <div class="game-vignette" aria-hidden="true"></div>
+        </div>
+
+        <div class="hud-bar" aria-live="polite">
+          <div class="hud-stat"><span class="hud-label">SCORE</span><strong id="score-value">000000</strong></div>
+          <div class="hud-stat"><span class="hud-label">PERSONAL BEST</span><strong id="best-value">000000</strong></div>
+          <div class="hud-stat shield-stat"><span class="hud-label">SHIELDS</span><strong id="shield-value">◆ ◆ ◆</strong></div>
+          <button class="pause-button" id="pause-button" type="button" disabled>Ⅱ PAUSE</button>
+        </div>
+
+        <div class="touch-controls" aria-label="Touch controls">
+          <button class="touch-control" id="left-control" type="button" aria-label="Move left">←</button>
+          <span>STEER YOUR SHIP</span>
+          <button class="touch-control" id="right-control" type="button" aria-label="Move right">→</button>
+        </div>
+      </div>
+
+      <aside class="game-sidebar">
+        <div class="side-panel mission-panel">
+          <div class="panel-kicker">MISSION BRIEF</div>
+          <div class="mission-symbol">⌁</div>
+          <h3>Stay in orbit.</h3>
+          <p>Keep moving. A clean run beats a reckless one. Energy fragments are worth points — but never chase one into an asteroid.</p>
+          <div class="mission-divider"></div>
+          <div class="mission-fact"><span>OBJECTIVE</span><strong>Survive & collect</strong></div>
+          <div class="mission-fact"><span>DIFFICULTY</span><strong>Adaptive</strong></div>
+          <div class="mission-fact"><span>BEST RUN</span><strong id="sidebar-best">—</strong></div>
+        </div>
+        <div class="side-panel controls-panel">
+          <div class="panel-kicker">HOW TO PLAY</div>
+          <div class="key-row"><span class="keycap">←</span><span class="keycap">→</span><p>Move left / right</p></div>
+          <div class="key-row"><span class="keycap key-wide">A</span><span class="keycap key-wide">D</span><p>Alternative controls</p></div>
+          <div class="key-row"><span class="keycap key-wide">SPACE</span><p>Pause / resume</p></div>
+          <div class="side-note">Mobile? Use the touch controls below the game.</div>
+        </div>
+        <div class="side-panel score-panel">
+          <div class="panel-kicker">SCORING</div>
+          <div class="score-rule"><span class="score-orb"></span><span>Energy fragment</span><strong>+250</strong></div>
+          <div class="score-rule"><span class="score-asteroid"></span><span>Survival bonus</span><strong>+10 / sec</strong></div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="arcade-footer">
+      <div><span class="footer-mark">AF / 01</span><span>BUILT FOR FUN · NO TRACKERS · NO SERVER REQUIRED</span></div>
+      <a href="../">BACK TO DEVELOPER SPACE <span>↗</span></a>
+    </section>
+  </main>
+</body>
+</html>
