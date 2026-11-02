@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070b12">
+  <meta name="description" content="The interactive developer portfolio of Rayhan Adhyfa Firdaus — Informatics student building thoughtful, useful web experiences.">
+  <meta property="og:title" content="Adhy — Interactive Developer Space">
+  <meta property="og:description" content="A little space for code, curiosity, and interactive ideas.">
+  <meta property="og:type" content="website">
+  <title>Adhy — Interactive Developer Space</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.187.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.187.0/examples/jsm/"
+      }
+    }
+  </script>
+  <script type="module" src="./main.js"></script>
+</head>
+<body>
+  <div class="page-noise" aria-hidden="true"></div>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Adhy home">
+      <span class="brand-mark">A<span>F</span></span>
+      <span class="brand-copy">ADHY<span class="brand-dot">.</span><small>DEVELOPER SPACE</small></span>
+    </a>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#toolkit">Toolkit</a>
+      <a href="#projects">Projects</a>
+      <a class="nav-cta" href="https://github.com/Nightfall5" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> INFORMATICS STUDENT <span class="eyebrow-separator">/</span> DEVELOPER IN PROGRESS</div>
+        <h1>Ideas into<br><span class="gradient-text">digital experiences.</span></h1>
+        <p class="hero-lead">I'm <strong>Rayhan Adhyfa Firdaus</strong> — I enjoy connecting thoughtful interface design with practical engineering to build things that are useful, clear, and a little more alive.</p>
+        <div class="typing-line"><span class="typing-prefix">CURRENTLY</span><span id="typed-text">building web experiences.</span><span class="typing-caret" aria-hidden="true"></span></div>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↘</span></a>
+          <a class="button button-quiet" href="https://github.com/Nightfall5" target="_blank" rel="noreferrer">Visit GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-meta">
+          <div><span class="meta-value">01</span><span class="meta-label">CURIOUS BY DEFAULT</span></div>
+          <div><span class="meta-value">02</span><span class="meta-label">BUILD · TEST · REFINE</span></div>
+          <div><span class="meta-value">03</span><span class="meta-label">ALWAYS LEARNING</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="visual-topline"><span>FIG. 001 — DIGITAL ORBIT</span><span class="live-indicator"><i></i> LIVE 3D SCENE</span></div>
+        <div class="scene-frame">
+          <div class="scene-glow" aria-hidden="true"></div>
+          <canvas id="three-canvas" aria-label="Interactive 3D orbital sculpture. Drag to rotate and click the central object to change its energy mode." role="img"></canvas>
+          <div class="scene-crosshair crosshair-one" aria-hidden="true"></div>
+          <div class="scene-crosshair crosshair-two" aria-hidden="true"></div>
+          <div class="scene-label scene-label-top"><span class="label-dot"></span> FORM / 3D-01</div>
+          <div class="scene-label scene-label-bottom">ROTATE <span>↗</span> EXPLORE</div>
+          <div class="scene-coordinate">X 04.28<br>Y 11.06<br>Z 00.26</div>
+          <button class="energy-toggle" id="energy-toggle" type="button" aria-pressed="false"><span class="energy-icon">✳</span> ACTIVATE ENERGY</button>
+        </div>
+        <div class="visual-caption"><span>DRAG TO ROTATE</span><span class="caption-divider"></span><span>CLICK THE CORE TO SHIFT ITS STATE</span></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-cue-line"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="intro-strip" aria-label="Introduction">
+      <div class="intro-strip-inner">
+        <span>DESIGN MINDED</span><b>✳</b><span>ENGINEERING CURIOUS</span><b>✳</b><span>DETAIL ORIENTED</span><b>✳</b><span>ALWAYS BUILDING</span><b>✳</b><span>DESIGN MINDED</span>
+      </div>
+    </section>
+
+    <section class="content-section section-shell" id="about">
+      <div class="section-heading reveal">
+        <div class="eyebrow"><span class="eyebrow-line"></span> 01 / THE PERSON BEHIND THE PIXELS</div>
+        <h2>Curiosity is the<br><span class="muted-heading">starting point.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-main reveal">
+          <p class="large-copy">I’m an Informatics student who likes turning ideas into working software. My interest sits between the visual side of the web and the logic that makes an application dependable.</p>
+          <p class="body-copy">I learn by building, breaking things, understanding why they fail, and improving the details. From responsive interfaces to application logic and APIs, I'm gradually growing toward end-to-end web development.</p>
+          <a class="text-link" href="https://github.com/Nightfall5?tab=repositories" target="_blank" rel="noreferrer">Browse my repositories <span>↗</span></a>
+        </div>
+        <div class="about-side reveal">
+          <div class="profile-card">
+            <div class="profile-card-top"><span>PROFILE / 001</span><span class="profile-card-symbol">⌘</span></div>
+            <img class="profile-avatar" src="https://avatars.githubusercontent.com/u/179365916?v=4" alt="GitHub avatar for Nightfall5" loading="lazy">
+            <h3>Rayhan Adhyfa Firdaus</h3>
+            <p>Informatics Student · Indonesia</p>
+            <div class="profile-card-rule"></div>
+            <div class="profile-facts"><span>FOCUS</span><strong>Full-stack web development</strong></div>
+            <div class="profile-facts"><span>MINDSET</span><strong>Learn by building</strong></div>
+            <div class="profile-facts"><span>HANDLE</span><strong>@Nightfall5</strong></div>
+            <div class="profile-card-footer"><span class="status-pulse"></span> OPEN TO LEARNING & COLLABORATION</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section toolkit-section" id="toolkit">
+      <div class="section-shell">
+        <div class="section-heading reveal">
+          <div class="eyebrow"><span class="eyebrow-line"></span> 02 / TOOLS & TECHNOLOGIES</div>
+          <h2>A growing <span class="gradient-text">toolkit.</span></h2>
+          <p class="section-subtitle">The tools I use to shape ideas into interfaces, applications, and working systems.</p>
+        </div>
+        <div class="toolkit-grid">
+          <article class="tool-card reveal">
+            <div class="tool-index">01</div><div class="tool-icon">◈</div>
+            <h3>Frontend</h3><p>Building responsive interfaces with an eye for detail and usability.</p>
+            <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>TypeScript</span><span>React</span><span>Tailwind</span></div>
+          </article>
+          <article class="tool-card reveal">
+            <div class="tool-index">02</div><div class="tool-icon">⌘</div>
+            <h3>Backend</h3><p>Learning how application logic, APIs, and data fit together.</p>
+            <div class="tag-list"><span>C#</span><span>.NET</span><span>Node.js</span><span>Python</span><span>REST API</span></div>
+          </article>
+          <article class="tool-card reveal">
+            <div class="tool-index">03</div><div class="tool-icon">⎇</div>
+            <h3>Workflow</h3><p>Keeping the development process organized, traceable, and iterative.</p>
+            <div class="tag-list"><span>Git</span><span>GitHub</span><span>VS Code</span><span>Debugging</span><span>UI/UX</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section section-shell" id="projects">
+      <div class="section-heading reveal">
+        <div class="eyebrow"><span class="eyebrow-line"></span> 03 / SELECTED WORK</div>
+        <h2>Things I've <span class="muted-heading">put together.</span></h2>
+        <p class="section-subtitle">A few projects that reflect what I've been learning and building.</p>
+      </div>
+      <div class="project-list">
+        <a class="project-card project-featured reveal" href="https://github.com/Nightfall5/pbp-240511056" target="_blank" rel="noreferrer">
+          <div class="project-number">01 <span>FEATURED PROJECT</span></div>
+          <div class="project-content">
+            <div class="project-type">INTERFACE DEVELOPMENT</div>
+            <h3>Neo-Brutalist<br>Login Interface<span class="project-arrow">↗</span></h3>
+            <p>A responsive login-page implementation focused on visual hierarchy, form validation, and desktop-to-mobile consistency.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </div>
+          <div class="project-art art-login" aria-hidden="true">
+            <div class="mock-window"><div class="mock-window-bar"><i></i><i></i><i></i><span>STUDENT PORTAL</span></div><div class="mock-window-body"><span class="mock-small">WELCOME BACK</span><b>Sign in<span>.</span></b><i class="mock-input"></i><i class="mock-input short"></i><i class="mock-button"></i></div></div>
+            <div class="art-orbit"></div><span class="art-plus">✳</span>
+          </div>
+        </a>
+
+        <a class="project-card reveal" href="https://github.com/Nightfall5/Landing-Page-Parfume" target="_blank" rel="noreferrer">
+          <div class="project-number">02 <span>TEAM PROJECT</span></div>
+          <div class="project-content">
+            <div class="project-type">BRAND & WEB EXPERIENCE</div>
+            <h3>LUXU — Fragrance<br>Landing Page<span class="project-arrow">↗</span></h3>
+            <p>A collaborative landing page project. I led the team and contributed to layout, content structure, and responsive details.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </div>
+          <div class="project-art art-fragrance" aria-hidden="true"><div class="perfume-shadow"></div><div class="perfume-bottle"><div class="bottle-cap"></div><div class="bottle-neck"></div><div class="bottle-label">LUXU<small>EAU DE PARFUM</small></div></div><span class="art-orbit-small"></span></div>
+        </a>
+
+        <a class="project-card reveal" href="https://github.com/Nightfall5/Luxu_Parfume_Market-Place" target="_blank" rel="noreferrer">
+          <div class="project-number">03 <span>FRONTEND PROTOTYPE</span></div>
+          <div class="project-content">
+            <div class="project-type">COMPONENT-BASED APPLICATION</div>
+            <h3>LUXU — Marketplace<br>Prototype<span class="project-arrow">↗</span></h3>
+            <p>A frontend prototype exploring component-driven development and a modern TypeScript workflow.</p>
+            <div class="project-tags"><span>React</span><span>TypeScript</span><span>Vite</span><span>Tailwind</span></div>
+          </div>
+          <div class="project-art art-market" aria-hidden="true"><div class="market-panel"><span>COLLECTION / 2026</span><div class="market-product product-one"></div><div class="market-product product-two"></div><div class="market-product product-three"></div><b>THE<br>SELECTION</b></div><div class="market-orbit"></div></div>
+        </a>
+      </div>
+    </section>
+
+    <section class="closing-section">
+      <div class="closing-orb" aria-hidden="true"></div>
+      <div class="section-shell closing-content reveal">
+        <div class="eyebrow"><span class="eyebrow-line"></span> 04 / WHAT'S NEXT</div>
+        <h2>Still learning.<br><span class="gradient-text">Still building.</span></h2>
+        <p>Good work starts with curiosity and gets better through iteration. I'm always looking for the next problem worth solving.</p>
+        <a class="button button-primary" href="https://github.com/Nightfall5" target="_blank" rel="noreferrer">Connect on GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <a class="brand" href="#top" aria-label="Back to top"><span class="brand-mark">A<span>F</span></span><span class="brand-copy">ADHY<span class="brand-dot">.</span><small>DEVELOPER SPACE</small></span></a>
+    <p>Designed with curiosity. Built with code.</p>
+    <span class="footer-year">© <span id="current-year">2026</span> RAYHAN ADHYFA FIRDAUS</span>
+  </footer>
+</body>
+</html>
