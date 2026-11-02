@@ -285,3 +285,23 @@ h1, h2, h3, p { margin-top: 0; }
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+
+.arcade-feature { position: relative; overflow: hidden; padding: 112px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: radial-gradient(ellipse at 76% 48%, rgba(35, 113, 126, .17), transparent 43%), linear-gradient(120deg, rgba(9, 17, 28, .94), rgba(10, 17, 29, .72)); }
+.arcade-feature-grid { display: grid; grid-template-columns: .78fr 1.22fr; align-items: center; gap: 55px; }
+.arcade-feature-copy h2 { margin: 22px 0 17px; font-size: clamp(38px, 4.5vw, 58px); line-height: 1.08; letter-spacing: -.07em; }
+.arcade-feature-copy > p { max-width: 420px; margin-bottom: 21px; color: #91a6b2; font-size: 12px; line-height: 1.95; }
+.arcade-feature-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 26px; color: #6f8997; font: 8px var(--mono); letter-spacing: .11em; }
+.arcade-preview { position: relative; display: block; overflow: hidden; border: 1px solid rgba(123,233,229,.28); background: #08111d; box-shadow: 0 20px 70px rgba(0,0,0,.24); transition: transform .35s ease, border-color .35s ease, box-shadow .35s ease; }
+.arcade-preview:hover { transform: translateY(-6px); border-color: rgba(123,233,229,.65); box-shadow: 0 27px 80px rgba(0,0,0,.32), 0 0 35px rgba(66,199,192,.12); }
+.arcade-preview img { width: 100%; display: block; transition: transform .6s ease; }
+.arcade-preview:hover img { transform: scale(1.025); }
+.arcade-preview-label { position: absolute; right: 13px; bottom: 13px; display: inline-flex; align-items: center; gap: 8px; padding: 9px 12px; border: 1px solid rgba(123,233,229,.3); background: rgba(5,12,19,.87); color: #b4e6e2; font: 8px var(--mono); letter-spacing: .1em; backdrop-filter: blur(10px); }
+.arcade-preview-label i { width: 5px; height: 5px; border-radius: 50%; background: var(--cyan); box-shadow: 0 0 8px var(--cyan); }
+.arcade-preview-label b { color: var(--cyan); font-size: 12px; }
+@media (max-width: 720px) {
+  .arcade-feature { padding: 88px 0; }
+  .arcade-feature-grid { grid-template-columns: 1fr; gap: 31px; }
+  .arcade-feature-copy h2 { font-size: clamp(40px, 10vw, 54px); }
+  .arcade-preview-label { right: 8px; bottom: 8px; padding: 7px 9px; font-size: 7px; }
+}
