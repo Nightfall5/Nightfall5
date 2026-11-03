@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+<title id="title">MINBAK TI — Management Hub preview</title>
+<desc id="desc">Source-aligned design preview of the light-themed MINBAK TI management layout, showing its consistent brand, sidebar navigation, summary cards and operational panels. This is an illustration, not an actual browser screenshot.</desc>
+<defs>
+  <linearGradient id="side" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#F8FBFC"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9BE2F3"/><stop offset="1" stop-color="#5FA2BE"/></linearGradient>
+  <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="9" stdDeviation="13" flood-color="#193744" flood-opacity=".07"/></filter>
+  <style>.s{font-family:Manrope,Arial,sans-serif}.m{font-family:'DM Mono',Consolas,monospace}.ink{fill:#091721}.mut{fill:#718893}.small{font-size:10px}</style>
+</defs>
+<rect width="1440" height="900" fill="#F3F7F8"/>
+<!-- Sidebar -->
+<rect x="0" y="0" width="270" height="900" fill="url(#side)"/>
+<path d="M269.5 0V900" stroke="#DCE8EC"/>
+<rect x="28" y="26" width="42" height="42" rx="14" fill="#091721"/>
+<text x="49" y="54" text-anchor="middle" class="s" font-size="20" font-weight="800" fill="#FFFFFF">M</text>
+<circle cx="62" cy="33" r="3.5" fill="#9BE2F3"/>
+<text x="83" y="44" class="s ink" font-size="18" font-weight="800">MINBAK <tspan fill="#5FA2BE">TI</tspan></text>
+<text x="84" y="61" class="m mut" font-size="7.5" letter-spacing="1.1">RUANG PENGELOLAAN</text>
+<rect x="21" y="100" width="228" height="74" rx="14" fill="#F4F8F9" stroke="#DCE8EC"/>
+<circle cx="54" cy="137" r="19" fill="#E5F5F8"/><text x="54" y="142" text-anchor="middle" class="s" font-size="15" font-weight="800" fill="#477E96">A</text>
+<text x="83" y="132" class="s ink" font-size="11" font-weight="800">Admin Workspace</text>
+<text x="83" y="149" class="m mut" font-size="8">PENGELOLA MINBAK TI</text>
+<text x="27" y="216" class="m mut" font-size="8" letter-spacing="1.5">MENU UTAMA</text>
+<rect x="17" y="234" width="235" height="42" rx="12" fill="#EAF5F8" stroke="#D6EAF0"/>
+<rect x="31" y="247" width="15" height="15" rx="4" fill="#CDEAF1"/>
+<text x="58" y="261" class="s" font-size="11" font-weight="800" fill="#3D6C97">Dashboard</text>
+<g class="s" font-size="11" fill="#667E89">
+  <rect x="31" y="300" width="15" height="15" rx="4" fill="#EEF4F6"/><text x="58" y="312">Data Mahasiswa</text>
+  <rect x="31" y="350" width="15" height="15" rx="4" fill="#EEF4F6"/><text x="58" y="362">Kompetisi</text>
+  <rect x="31" y="400" width="15" height="15" rx="4" fill="#EEF4F6"/><text x="58" y="412">Pendaftaran</text>
+  <rect x="31" y="450" width="15" height="15" rx="4" fill="#EEF4F6"/><text x="58" y="462">Asesmen Minat &amp; Bakat</text>
+  <rect x="31" y="500" width="15" height="15" rx="4" fill="#EEF4F6"/><text x="58" y="512">Prestasi Mahasiswa</text>
+  <rect x="31" y="550" width="15" height="15" rx="4" fill="#EEF4F6"/><text x="58" y="562">Audit Log</text>
+  <rect x="31" y="600" width="15" height="15" rx="4" fill="#EEF4F6"/><text x="58" y="612">Pengaturan</text>
+</g>
+<path d="M22 662H248" stroke="#E6EEF0"/>
+<text x="27" y="696" class="m mut" font-size="8" letter-spacing="1.3">AKSES CEPAT</text>
+<text x="31" y="733" class="s mut" font-size="10">↗  Website Publik</text>
+<text x="31" y="770" class="s mut" font-size="10">↗  Kompetisi Terbaru</text>
+<!-- Topbar -->
+<rect x="270" y="0" width="1170" height="78" fill="#FFFFFF"/>
+<path d="M270 77.5H1440" stroke="#DCE8EC"/>
+<text x="310" y="33" class="m mut" font-size="8.5" letter-spacing="1.3">MINBAK TI / RUANG PENGELOLAAN</text>
+<text x="310" y="54" class="s ink" font-size="13" font-weight="800">Dashboard</text>
+<circle cx="1352" cy="39" r="17" fill="#EAF5F8"/><text x="1352" y="44" text-anchor="middle" class="s" font-size="11" font-weight="800" fill="#477E96">A</text>
+<text x="1319" y="44" text-anchor="end" class="s" font-size="10" font-weight="700" fill="#536F7B">Administrator</text>
+<!-- Main header -->
+<text x="310" y="133" class="m" font-size="9" fill="#5F92A7" letter-spacing="1.4">OVERVIEW / OPERASIONAL</text>
+<text x="310" y="183" class="s ink" font-size="35" font-weight="800" letter-spacing="-1.4">Ringkasan Operasional</text>
+<text x="312" y="213" class="s mut" font-size="13">Pantau pemetaan talenta, informasi kompetisi, pendaftaran, dan rekam prestasi.</text>
+<rect x="1194" y="152" width="196" height="42" rx="21" fill="#091721"/>
+<text x="1292" y="178" text-anchor="middle" class="s" font-size="11" font-weight="800" fill="#FFFFFF">+ Tambah Data</text>
+<!-- Summary cards -->
+<g filter="url(#cardShadow)">
+  <rect x="310" y="250" width="250" height="145" rx="17" fill="#FFFFFF" stroke="#DCE8EC"/>
+  <rect x="580" y="250" width="250" height="145" rx="17" fill="#FFFFFF" stroke="#DCE8EC"/>
+  <rect x="850" y="250" width="250" height="145" rx="17" fill="#FFFFFF" stroke="#DCE8EC"/>
+  <rect x="1120" y="250" width="270" height="145" rx="17" fill="#FFFFFF" stroke="#DCE8EC"/>
+</g>
+<g class="m" font-size="8" letter-spacing="1" fill="#8298A1">
+  <text x="332" y="282">MAHASISWA TERDATA</text><text x="602" y="282">KOMPETISI AKTIF</text><text x="872" y="282">PENDAFTARAN</text><text x="1142" y="282">PRESTASI TERVERIFIKASI</text>
+</g>
+<g class="s" font-size="29" font-weight="800" fill="#477F99">
+  <text x="332" y="337">—</text><text x="602" y="337">—</text><text x="872" y="337">—</text><text x="1142" y="337">—</text>
+</g>
+<g class="s" font-size="10" fill="#8298A1">
+  <text x="332" y="367">Data dari sistem</text><text x="602" y="367">Data dari sistem</text><text x="872" y="367">Perlu ditinjau</text><text x="1142" y="367">Data dari sistem</text>
+</g>
+<g fill="url(#accent)"><rect x="332" y="383" width="34" height="3" rx="2"/><rect x="602" y="383" width="34" height="3" rx="2"/><rect x="872" y="383" width="34" height="3" rx="2"/><rect x="1142" y="383" width="34" height="3" rx="2"/></g>
+<!-- Table panel -->
+<g filter="url(#cardShadow)">
+  <rect x="310" y="423" width="680" height="400" rx="18" fill="#FFFFFF" stroke="#DCE8EC"/>
+  <rect x="1010" y="423" width="380" height="400" rx="18" fill="#FFFFFF" stroke="#DCE8EC"/>
+</g>
+<text x="337" y="462" class="s ink" font-size="16" font-weight="800">Aktivitas Terbaru</text>
+<text x="337" y="485" class="s mut" font-size="10">Ringkasan aktivitas dari berbagai modul MINBAK TI.</text>
+<rect x="336" y="510" width="628" height="35" rx="8" fill="#F4F8F9"/>
+<g class="m" font-size="8" fill="#80959E" letter-spacing=".7"><text x="354" y="532">AKTIVITAS</text><text x="720" y="532">MODUL</text><text x="900" y="532">STATUS</text></g>
+<g>
+  <path d="M336 560H964 M336 632H964 M336 704H964 M336 776H964" stroke="#E8EFF1"/>
+  <circle cx="355" cy="585" r="4" fill="#5FA2BE"/><text x="370" y="589" class="s" font-size="10" font-weight="700" fill="#315365">Pembaruan data mahasiswa</text><text x="720" y="589" class="s mut" font-size="9">Mahasiswa</text><rect x="884" y="574" width="62" height="22" rx="11" fill="#EAF5F8"/><text x="915" y="589" text-anchor="middle" class="s" font-size="8" font-weight="700" fill="#477E96">TERCATAT</text>
+  <circle cx="355" cy="657" r="4" fill="#78B7A1"/><text x="370" y="661" class="s" font-size="10" font-weight="700" fill="#315365">Pembaruan informasi kompetisi</text><text x="720" y="661" class="s mut" font-size="9">Kompetisi</text><rect x="884" y="646" width="62" height="22" rx="11" fill="#EAF5F8"/><text x="915" y="661" text-anchor="middle" class="s" font-size="8" font-weight="700" fill="#477E96">TERCATAT</text>
+  <circle cx="355" cy="729" r="4" fill="#B99D6A"/><text x="370" y="733" class="s" font-size="10" font-weight="700" fill="#315365">Peninjauan pendaftaran peserta</text><text x="720" y="733" class="s mut" font-size="9">Pendaftaran</text><rect x="884" y="718" width="62" height="22" rx="11" fill="#F8F1E5"/><text x="915" y="733" text-anchor="middle" class="s" font-size="8" font-weight="700" fill="#936B2C">TINJAU</text>
+</g>
+<text x="1037" y="462" class="s ink" font-size="16" font-weight="800">Pemetaan Minat</text>
+<text x="1037" y="485" class="s mut" font-size="10">Ringkasan bidang minat mahasiswa.</text>
+<g class="s" font-size="10" fill="#536F7B">
+  <text x="1038" y="542">Software Development</text><text x="1360" y="542" text-anchor="end" fill="#477E96">—</text>
+  <rect x="1038" y="554" width="314" height="8" rx="4" fill="#EFF4F5"/><rect x="1038" y="554" width="196" height="8" rx="4" fill="#9BE2F3"/>
+  <text x="1038" y="596">AI &amp; Data</text><text x="1360" y="596" text-anchor="end" fill="#477E96">—</text>
+  <rect x="1038" y="608" width="314" height="8" rx="4" fill="#EFF4F5"/><rect x="1038" y="608" width="148" height="8" rx="4" fill="#79B8C9"/>
+  <text x="1038" y="650">UI / UX Design</text><text x="1360" y="650" text-anchor="end" fill="#477E96">—</text>
+  <rect x="1038" y="662" width="314" height="8" rx="4" fill="#EFF4F5"/><rect x="1038" y="662" width="117" height="8" rx="4" fill="#5FA2BE"/>
+  <text x="1038" y="704">Cybersecurity</text><text x="1360" y="704" text-anchor="end" fill="#477E96">—</text>
+  <rect x="1038" y="716" width="314" height="8" rx="4" fill="#EFF4F5"/><rect x="1038" y="716" width="87" height="8" rx="4" fill="#3D6C97"/>
+</g>
+<rect x="1037" y="758" width="314" height="38" rx="19" fill="#EAF5F8"/>
+<text x="1194" y="782" text-anchor="middle" class="s" font-size="10" font-weight="800" fill="#477E96">Lihat pemetaan lengkap ↗</text>
+<rect x="1110" y="20" width="280" height="28" rx="14" fill="#EAF5F8" stroke="#D6EAF0"/>
+<text x="1250" y="38" text-anchor="middle" class="m" font-size="8" font-weight="700" letter-spacing="1" fill="#477E96">SOURCE-ALIGNED MANAGEMENT PREVIEW</text>
+<text x="310" y="868" class="m mut" font-size="8" letter-spacing="1">MINBAK TI · ILLUSTRATIVE LAYOUT · DATA VALUES OMITTED</text>
+</svg>
