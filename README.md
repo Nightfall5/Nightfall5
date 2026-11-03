@@ -87,11 +87,12 @@ I'm an Informatics student and Web Developer interested in building practical we
 
 | Project | What it demonstrates | Stack |
 | --- | --- | --- |
-| **KuliaTrack — Academic Productivity Workspace** | Offline-first academic workspace with task views, courses, materials, calendar, notes, statistics, data backup, and real-time deadline alerts. Source repository is currently private. | React · TypeScript · Node.js · Express · Tailwind CSS · SSE |
+| **KuliaTrack — Academic Productivity Workspace** | Offline-first academic workspace with task views, courses, materials, calendar, notes, statistics, backup, and real-time deadline alerts. Source repository is currently private. | React · TypeScript · Node.js · Express · Tailwind CSS · SSE |
 | [**MINBAK TI — Talent & Competition Hub**](https://github.com/Nightfall5/MinatBakat-TI) | Student interest assessment, competition registration, achievement verification, public pages, and role-based management. | PHP · Laravel 11 · Blade · Tailwind CSS |
-| [**LUXU — Fragrance Web Projects**](https://github.com/Nightfall5/Landing-Page-Parfume) | Team-led landing page and a separate component-based perfume marketplace prototype. | HTML · CSS · JavaScript · React · TypeScript · Supabase |
+| [**LUXU — Premium Fragrance Landing Page**](https://github.com/Nightfall5/Landing-Page-Parfume) | Team-led fragrance landing page with responsive sections and product collection filters. | HTML · CSS · JavaScript |
+| [**TokoKita — Technology Marketplace Prototype**](https://github.com/Nightfall5/Luxu_Parfume_Market-Place) | React storefront source with electronics catalogue, categories, product filtering, cart drawer, wishlist, and comparison controls. | React · TypeScript · Vite · Tailwind CSS · Supabase |
 | [**E-Commerce Website**](https://e-commerce-websitesederhana.netlify.app/) | Responsive storefront interface with product browsing and a simple cart experience. | React · Tailwind CSS |
-| [**PBP — Neo-Brutalist Login UI**](https://github.com/Nightfall5/pbp-240511056) | Responsive student login interface with input validation and desktop/mobile implementation. | HTML · CSS · JavaScript |
+| [**PBP — Neo-Brutalist Login UI**](https://github.com/Nightfall5/pbp-240511056) | Responsive student login interface, backed by original desktop and mobile screenshots. | HTML · CSS · JavaScript |
 
 ## GitHub activity
 
