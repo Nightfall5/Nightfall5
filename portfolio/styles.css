@@ -495,3 +495,16 @@ h1, h2, h3, p { margin-top: 0; }
 .project-preview--cover{display:grid;place-items:center;background:radial-gradient(circle at 50% 45%,rgba(123,233,229,.1),transparent 55%),#0a111c}
 .project-preview--cover img{width:100%;height:100%;object-fit:contain}
 @media(max-width:720px){.project-preview--pbp{padding:10px}.project-preview--pbp .project-pbp-desktop{width:93%}.project-preview--pbp .project-pbp-mobile{right:3%;width:20%;height:74%;border-width:2px}}
+
+/* MINBAK TI dual-view project preview — public homepage + Management Hub */
+.project-preview.minbak-preview-gallery{background:#F3F7F8}
+.project-preview.minbak-preview-gallery .minbak-home-preview{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top}
+.minbak-admin-inset{position:absolute;z-index:2;right:17px;bottom:17px;width:43%;height:43%;overflow:hidden;border:5px solid rgba(255,255,255,.96);border-radius:13px;background:#F3F7F8;box-shadow:0 13px 34px rgba(9,23,33,.25)}
+.minbak-admin-inset img{display:block;width:100%;height:100%;object-fit:cover;object-position:left top}
+.minbak-inset-label{position:absolute;top:8px;left:8px;padding:6px 8px;border:1px solid rgba(220,232,236,.9);border-radius:999px;background:rgba(255,255,255,.94);color:#477E96;font:7px var(--mono);letter-spacing:.08em}
+.minbak-preview-label{right:auto;left:13px;bottom:13px;max-width:calc(57% - 20px);border-color:rgba(61,108,151,.22);background:rgba(9,23,33,.88);color:#E5F6F9}
+@media(max-width:720px){
+  .minbak-admin-inset{right:9px;bottom:9px;width:48%;height:40%;border-width:3px;border-radius:9px}
+  .minbak-inset-label{top:5px;left:5px;padding:4px 6px;font-size:6px}
+  .minbak-preview-label{left:8px;bottom:8px;max-width:49%;padding:6px 7px;font-size:6px}
+}
