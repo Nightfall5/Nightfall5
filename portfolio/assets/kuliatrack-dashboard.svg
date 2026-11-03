@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+<title id="title">KuliaTrack academic dashboard preview</title>
+<desc id="desc">A Neo-Brutalist academic productivity dashboard with navigation, task metrics, urgent assignments, courses, and upcoming agenda. Illustrative sample data.</desc>
+<defs>
+  <pattern id="paperGrid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#1c1b1b" stroke-opacity=".055" stroke-width="1"/></pattern>
+  <filter id="hardShadow" x="-20%" y="-20%" width="150%" height="150%"><feOffset dx="4" dy="4"/><feComponentTransfer><feFuncA type="linear" slope=".9"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>
+    .sans{font-family:Inter,Arial,sans-serif}.display{font-family:'Arial',sans-serif;font-weight:800}.mono{font-family:'Courier New',monospace}
+    .ink{fill:#1c1b1b}.muted{fill:#625d59}.small{font-size:12px}.tiny{font-size:10px}.label{font-family:'Courier New',monospace;font-size:10px;font-weight:700;letter-spacing:1px}
+  </style>
+</defs>
+<rect width="1600" height="1000" fill="#fbf8f5"/><rect width="1600" height="1000" fill="url(#paperGrid)"/>
+<rect width="1600" height="72" fill="#fcf9f8" stroke="#1c1b1b" stroke-width="2"/>
+<rect x="22" y="15" width="42" height="42" fill="#ff6b35" stroke="#1c1b1b" stroke-width="2.5" filter="url(#hardShadow)"/>
+<text x="43" y="44" text-anchor="middle" class="display ink" font-size="22">KT</text>
+<text x="78" y="37" class="display ink" font-size="24">KuliaTrack</text>
+<text x="80" y="53" class="label muted">WORKSPACE AKADEMIK</text>
+<rect x="300" y="19" width="220" height="34" fill="#f6f3f2" stroke="#1c1b1b" stroke-width="2"/>
+<text x="316" y="41" class="sans muted" font-size="12">Cari tugas atau mata kuliah...</text>
+<text x="600" y="42" class="label" fill="#ab3500">DASHBOARD</text>
+<text x="724" y="42" class="label muted">TUGAS</text>
+<text x="804" y="42" class="label muted">KALENDER</text>
+<text x="930" y="42" class="label muted">MATERI</text>
+<text x="1015" y="42" class="label muted">ARSIP</text>
+<rect x="1322" y="17" width="164" height="38" fill="#ff6b35" stroke="#1c1b1b" stroke-width="2.5" filter="url(#hardShadow)"/>
+<text x="1404" y="41" class="label ink" text-anchor="middle">+ TUGAS BARU</text>
+<rect x="1510" y="17" width="40" height="38" fill="#dbe1ff" stroke="#1c1b1b" stroke-width="2"/>
+<text x="1530" y="42" class="display ink" font-size="18" text-anchor="middle">A</text>
+<!-- Sidebar -->
+<rect x="0" y="72" width="228" height="928" fill="#f0edec" stroke="#1c1b1b" stroke-width="2"/>
+<rect x="18" y="95" width="192" height="76" fill="#fff" stroke="#1c1b1b" stroke-width="2.5"/>
+<rect x="30" y="111" width="37" height="37" fill="#ffd6a5" stroke="#1c1b1b" stroke-width="2"/>
+<text x="48" y="136" class="display ink" text-anchor="middle" font-size="15">ST</text>
+<text x="80" y="126" class="sans ink" font-size="14" font-weight="700">Student Workspace</text>
+<text x="80" y="146" class="mono muted" font-size="10">DATA DEMO</text>
+<rect x="15" y="195" width="198" height="40" fill="#ff6b35" stroke="#1c1b1b" stroke-width="2"/>
+<text x="34" y="220" class="mono ink" font-size="12" font-weight="700">▦  Dashboard</text>
+<g class="mono" font-size="12" fill="#625d59">
+<text x="34" y="267">□  Tugas Saya</text><text x="34" y="309">□  Kalender</text><text x="34" y="351">□  Mata Kuliah</text>
+<text x="34" y="393">□  Materi &amp; File</text><text x="34" y="435">□  Pengingat &amp; Alarm</text>
+<text x="34" y="477">□  Catatan Kuliah</text><text x="34" y="519">□  Arsip Tugas</text>
+<text x="34" y="561">□  Statistik Akademik</text><text x="34" y="603">□  Pengaturan</text>
+</g>
+<rect x="17" y="850" width="194" height="112" fill="#e5e2e1" stroke="#1c1b1b" stroke-width="2"/>
+<text x="31" y="876" class="label muted">WORKSPACE</text>
+<text x="31" y="901" class="sans ink" font-size="13" font-weight="700">Organized learning.</text>
+<text x="31" y="925" class="sans muted" font-size="11">Courses · Tasks · Materials</text>
+<!-- Main canvas -->
+<text x="260" y="105" class="label muted">ACADEMIC WORKSPACE / OVERVIEW</text>
+<rect x="1370" y="84" width="178" height="26" fill="#a3e635" stroke="#1c1b1b" stroke-width="1.5"/>
+<text x="1459" y="102" text-anchor="middle" class="label ink">SAMPLE DATA</text>
+<rect x="258" y="124" width="1290" height="166" fill="#fff" stroke="#1c1b1b" stroke-width="2.5" filter="url(#hardShadow)"/>
+<rect x="282" y="143" width="190" height="25" fill="#a3e635" stroke="#1c1b1b" stroke-width="1.5"/>
+<text x="377" y="160" class="label ink" text-anchor="middle">ACADEMIC COMMAND CENTER</text>
+<text x="282" y="211" class="display ink" font-size="39">Semua urusan kuliah,</text>
+<text x="282" y="252" class="display ink" font-size="39">tertata dalam satu tempat.</text>
+<text x="285" y="276" class="sans muted" font-size="13">Pantau tugas, materi, agenda, dan progres belajar dari satu workspace.</text>
+<g transform="translate(1320 207) rotate(-10)" opacity=".18">
+  <circle cx="0" cy="0" r="67" fill="none" stroke="#ab3500" stroke-width="6" stroke-dasharray="7 5"/>
+  <text x="0" y="-3" text-anchor="middle" class="display" font-size="15" fill="#ab3500">KULIA</text>
+  <text x="0" y="18" text-anchor="middle" class="display" font-size="17" fill="#ab3500">TRACK</text>
+</g>
+<!-- Metric cards -->
+<g>
+  <rect x="258" y="315" width="306" height="104" fill="#fff" stroke="#1c1b1b" stroke-width="2.5" filter="url(#hardShadow)"/>
+  <text x="278" y="342" class="label muted">TUGAS AKTIF</text><text x="278" y="394" class="display ink" font-size="42">08</text><rect x="465" y="332" width="76" height="22" fill="#dbe1ff" stroke="#1c1b1b"/><text x="503" y="347" class="label ink" text-anchor="middle">ONGOING</text>
+  <rect x="585" y="315" width="306" height="104" fill="#fff" stroke="#1c1b1b" stroke-width="2.5" filter="url(#hardShadow)"/>
+  <text x="605" y="342" class="label muted">DEADLINE HARI INI</text><text x="605" y="394" class="display" fill="#ab3500" font-size="42">02</text><rect x="792" y="332" width="76" height="22" fill="#ffdbd0" stroke="#1c1b1b"/><text x="830" y="347" class="label ink" text-anchor="middle">URGENT</text>
+  <rect x="912" y="315" width="306" height="104" fill="#fff" stroke="#1c1b1b" stroke-width="2.5" filter="url(#hardShadow)"/>
+  <text x="932" y="342" class="label muted">MATA KULIAH</text><text x="932" y="394" class="display" fill="#0051d5" font-size="42">06</text><rect x="1119" y="332" width="76" height="22" fill="#dbe1ff" stroke="#1c1b1b"/><text x="1157" y="347" class="label ink" text-anchor="middle">ACTIVE</text>
+  <rect x="1239" y="315" width="309" height="104" fill="#fff" stroke="#1c1b1b" stroke-width="2.5" filter="url(#hardShadow)"/>
+  <text x="1259" y="342" class="label muted">PROGRES SEMESTER</text><text x="1259" y="394" class="display ink" font-size="42">72%</text><rect x="1432" y="366" width="93" height="10" fill="#e5e2e1" stroke="#1c1b1b"/><rect x="1432" y="366" width="67" height="10" fill="#a3e635"/>
+</g>
+<!-- Urgent tasks -->
+<text x="258" y="464" class="display ink" font-size="19">FOKUS HARI INI</text><text x="465" y="464" class="label" fill="#ab3500">TASK PRIORITY / NEXT DEADLINES</text>
+<rect x="258" y="481" width="832" height="248" fill="#fff" stroke="#1c1b1b" stroke-width="2.5" filter="url(#hardShadow)"/>
+<g>
+  <rect x="277" y="500" width="794" height="62" fill="#f6f3f2" stroke="#1c1b1b" stroke-width="1.5"/>
+  <rect x="292" y="513" width="35" height="35" fill="#ffdbd0" stroke="#1c1b1b" stroke-width="1.5"/><text x="310" y="536" text-anchor="middle" class="display" font-size="16" fill="#ab3500">!</text>
+  <text x="344" y="524" class="sans ink" font-size="13" font-weight="700">Selesaikan laporan praktikum</text><text x="344" y="545" class="mono muted" font-size="10">Mata Kuliah • LAPORAN</text>
+  <rect x="914" y="516" width="137" height="28" fill="#ffdbd0" stroke="#1c1b1b"/><text x="982" y="535" text-anchor="middle" class="label ink">HIGH PRIORITY</text>
+  <rect x="277" y="575" width="794" height="62" fill="#fff" stroke="#1c1b1b" stroke-width="1.5"/>
+  <rect x="292" y="588" width="35" height="35" fill="#dbe1ff" stroke="#1c1b1b" stroke-width="1.5"/><text x="310" y="611" text-anchor="middle" class="display" font-size="16" fill="#0051d5">↗</text>
+  <text x="344" y="599" class="sans ink" font-size="13" font-weight="700">Review materi perkuliahan</text><text x="344" y="620" class="mono muted" font-size="10">Mata Kuliah • STUDY NOTES</text>
+  <rect x="914" y="591" width="137" height="28" fill="#dbe1ff" stroke="#1c1b1b"/><text x="982" y="610" text-anchor="middle" class="label ink">IN PROGRESS</text>
+  <rect x="277" y="650" width="794" height="62" fill="#fff" stroke="#1c1b1b" stroke-width="1.5"/>
+  <rect x="292" y="663" width="35" height="35" fill="#a3e635" stroke="#1c1b1b" stroke-width="1.5"/><text x="310" y="686" text-anchor="middle" class="display" font-size="16" fill="#1c1b1b">✓</text>
+  <text x="344" y="674" class="sans ink" font-size="13" font-weight="700">Lengkapi checklist tugas</text><text x="344" y="695" class="mono muted" font-size="10">Mata Kuliah • TASK CHECKLIST</text>
+  <rect x="914" y="666" width="137" height="28" fill="#a3e635" stroke="#1c1b1b"/><text x="982" y="685" text-anchor="middle" class="label ink">READY TO SUBMIT</text>
+</g>
+<!-- Agenda -->
+<rect x="1110" y="481" width="438" height="248" fill="#fff" stroke="#1c1b1b" stroke-width="2.5" filter="url(#hardShadow)"/>
+<text x="1134" y="512" class="display ink" font-size="18">AGENDA AKADEMIK</text><text x="1134" y="534" class="mono muted" font-size="10">UPCOMING / CALENDAR</text>
+<line x1="1134" y1="550" x2="1524" y2="550" stroke="#1c1b1b" stroke-width="1.5"/>
+<rect x="1135" y="567" width="48" height="47" fill="#dbe1ff" stroke="#1c1b1b"/><text x="1159" y="586" text-anchor="middle" class="label ink">MON</text><text x="1159" y="604" text-anchor="middle" class="display ink" font-size="15">12</text>
+<text x="1197" y="585" class="sans ink" font-size="12" font-weight="700">Jadwal perkuliahan</text><text x="1197" y="605" class="mono muted" font-size="10">08:00 · Semester aktif</text>
+<line x1="1134" y1="628" x2="1524" y2="628" stroke="#d8d3cf"/>
+<rect x="1135" y="643" width="48" height="47" fill="#ffdbd0" stroke="#1c1b1b"/><text x="1159" y="662" text-anchor="middle" class="label ink">WED</text><text x="1159" y="680" text-anchor="middle" class="display ink" font-size="15">14</text>
+<text x="1197" y="661" class="sans ink" font-size="12" font-weight="700">Deadline tugas</text><text x="1197" y="681" class="mono muted" font-size="10">23:59 · Pengingat aktif</text>
+<!-- Course progress -->
+<text x="258" y="777" class="display ink" font-size="19">MATA KULIAH &amp; PROGRES</text><text x="570" y="777" class="label" fill="#0051d5">COURSE OVERVIEW</text>
+<rect x="258" y="794" width="1290" height="154" fill="#fff" stroke="#1c1b1b" stroke-width="2.5" filter="url(#hardShadow)"/>
+<g class="sans">
+  <text x="283" y="831" class="ink" font-size="14" font-weight="700">Mata Kuliah 01</text><text x="283" y="853" class="muted" font-size="10">3 SKS · Progress tracking</text><rect x="283" y="872" width="350" height="12" fill="#e5e2e1" stroke="#1c1b1b"/><rect x="283" y="872" width="238" height="12" fill="#ff6b35"/>
+  <text x="685" y="831" class="ink" font-size="14" font-weight="700">Mata Kuliah 02</text><text x="685" y="853" class="muted" font-size="10">Course materials · Tasks</text><rect x="685" y="872" width="350" height="12" fill="#e5e2e1" stroke="#1c1b1b"/><rect x="685" y="872" width="192" height="12" fill="#0051d5"/>
+  <text x="1086" y="831" class="ink" font-size="14" font-weight="700">Mata Kuliah 03</text><text x="1086" y="853" class="muted" font-size="10">Assignments · Notes</text><rect x="1086" y="872" width="410" height="12" fill="#e5e2e1" stroke="#1c1b1b"/><rect x="1086" y="872" width="286" height="12" fill="#a3e635"/>
+</g>
+<text x="258" y="981" class="mono muted" font-size="10">KULIATRACK · ACADEMIC PRODUCTIVITY WORKSPACE · STATIC DESIGN PREVIEW</text>
+</svg>

@@ -5,7 +5,7 @@
     alt="Animated profile header"
   />
   <img
-    src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=900&color=67E8F9&center=true&vCenter=true&repeat=true&width=780&height=45&lines=Informatics+Student+%7C+Aspiring+Full-Stack+Developer;Building+useful+web+experiences;From+thoughtful+UI+to+application+logic"
+    src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=900&color=67E8F9&center=true&vCenter=true&repeat=true&width=780&height=45&lines=Informatics+Student+%7C+Web+Developer;Building+end-to-end+web+applications;From+interfaces+to+application+logic"
     alt="Animated introduction"
   />
   <br />
@@ -24,7 +24,7 @@
 
 ## Hey, I'm Adhy.
 
-I'm an Informatics student interested in building useful web applications — from thoughtful interfaces to the application logic behind them. I learn by building, testing the details, and improving what I make.
+I'm an Informatics student and Web Developer interested in building practical web applications — from responsive interfaces to APIs, application logic, and data workflows. I learn by building, testing, and improving real projects.
 
 - **Focus:** full-stack web development and practical software engineering.
 - **Interested in:** frontend engineering, UI/UX, API integration, and data-driven applications.
@@ -87,9 +87,11 @@ I'm an Informatics student interested in building useful web applications — fr
 
 | Project | What it demonstrates | Stack |
 | --- | --- | --- |
-| [**PBP — Neo-Brutalist Login UI**](https://github.com/Nightfall5/pbp-240511056) | Responsive student login interface, input validation, and desktop/mobile implementation. | HTML · CSS · JavaScript |
-| [**LUXU — Fragrance Landing Page**](https://github.com/Nightfall5/Landing-Page-Parfume) | Collaborative web project. I led the team and contributed to the responsive landing page, content structure, and interactive details. | HTML · CSS · JavaScript |
-| [**LUXU — Marketplace Prototype**](https://github.com/Nightfall5/Luxu_Parfume_Market-Place) | A frontend application prototype exploring a component-based React and TypeScript workflow. | React · TypeScript · Vite · Tailwind CSS |
+| **KuliaTrack — Academic Productivity Workspace** | Offline-first academic workspace with task views, courses, materials, calendar, notes, statistics, data backup, and real-time deadline alerts. Source repository is currently private. | React · TypeScript · Node.js · Express · Tailwind CSS · SSE |
+| [**MINBAK TI — Talent & Competition Hub**](https://github.com/Nightfall5/MinatBakat-TI) | Student interest assessment, competition registration, achievement verification, public pages, and role-based management. | PHP · Laravel 11 · Blade · Tailwind CSS |
+| [**LUXU — Fragrance Web Projects**](https://github.com/Nightfall5/Landing-Page-Parfume) | Team-led landing page and a separate component-based perfume marketplace prototype. | HTML · CSS · JavaScript · React · TypeScript · Supabase |
+| [**E-Commerce Website**](https://e-commerce-websitesederhana.netlify.app/) | Responsive storefront interface with product browsing and a simple cart experience. | React · Tailwind CSS |
+| [**PBP — Neo-Brutalist Login UI**](https://github.com/Nightfall5/pbp-240511056) | Responsive student login interface with input validation and desktop/mobile implementation. | HTML · CSS · JavaScript |
 
 ## GitHub activity
 

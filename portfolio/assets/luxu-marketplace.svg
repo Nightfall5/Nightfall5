@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+<title id="title">LUXU fragrance marketplace preview</title><desc id="desc">Premium fragrance storefront concept with navigation, product collection, product cards, and filters.</desc>
+<defs><linearGradient id="luxbg" x2="1" y2="1"><stop stop-color="#f1e9dc"/><stop offset="1" stop-color="#c9bba6"/></linearGradient><linearGradient id="bottle" x2="1"><stop stop-color="#705b42"/><stop offset=".45" stop-color="#e0c69e"/><stop offset="1" stop-color="#59452f"/></linearGradient><filter id="luxshadow"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#35291c" flood-opacity=".18"/></filter></defs>
+<rect width="1600" height="1000" fill="#f5f0e7"/><rect x="0" y="0" width="1600" height="80" fill="#171716"/>
+<text x="72" y="51" fill="#f5ead6" font-family="Georgia,serif" font-size="34" letter-spacing="7">LUXU</text><text x="490" y="48" fill="#dfd2bd" font-family="Arial" font-size="14" letter-spacing="2">HOME</text><text x="590" y="48" fill="#dfd2bd" font-family="Arial" font-size="14" letter-spacing="2">COLLECTION</text><text x="760" y="48" fill="#dfd2bd" font-family="Arial" font-size="14" letter-spacing="2">ABOUT</text><text x="870" y="48" fill="#dfd2bd" font-family="Arial" font-size="14" letter-spacing="2">CONTACT</text>
+<rect x="1295" y="21" width="215" height="38" rx="19" fill="none" stroke="#b59a72"/><text x="1402" y="45" text-anchor="middle" fill="#e9ddcb" font-family="Arial" font-size="12" letter-spacing="1.5">SEARCH COLLECTION</text>
+<rect x="0" y="80" width="1600" height="335" fill="url(#luxbg)"/>
+<text x="90" y="162" fill="#74624a" font-family="Courier New" font-size="12" letter-spacing="4">THE ART OF SCENT</text>
+<text x="90" y="235" fill="#201d18" font-family="Georgia,serif" font-size="72">A scent that</text><text x="90" y="312" fill="#201d18" font-family="Georgia,serif" font-size="72" font-style="italic">stays with you.</text>
+<text x="95" y="356" fill="#6f6253" font-family="Arial" font-size="16">Discover a curated collection of refined fragrances.</text>
+<rect x="92" y="376" width="192" height="44" fill="#171716"/><text x="188" y="404" fill="#f5ead6" text-anchor="middle" font-family="Arial" font-size="12" letter-spacing="2">EXPLORE SCENTS</text>
+<g filter="url(#luxshadow)">
+<ellipse cx="1250" cy="370" rx="160" ry="22" fill="#544431" opacity=".2"/>
+<rect x="1187" y="167" width="132" height="191" rx="17" fill="url(#bottle)" stroke="#826b4d" stroke-width="2"/><rect x="1227" y="135" width="52" height="34" fill="#33271c"/><rect x="1240" y="119" width="26" height="17" fill="#ae9875"/><rect x="1200" y="236" width="106" height="65" fill="#ece1cf"/><text x="1253" y="266" text-anchor="middle" fill="#3a3025" font-family="Georgia,serif" font-size="17" letter-spacing="3">LUXU</text><text x="1253" y="285" text-anchor="middle" fill="#6d5a44" font-family="Arial" font-size="7" letter-spacing="2">EAU DE PARFUM</text>
+<rect x="1360" y="210" width="90" height="148" rx="12" fill="#1e2927" stroke="#82765e" stroke-width="2"/><rect x="1384" y="183" width="42" height="29" fill="#ad9974"/><rect x="1371" y="265" width="68" height="50" fill="#ded2bd"/><text x="1405" y="294" text-anchor="middle" fill="#30342e" font-family="Georgia,serif" font-size="12" letter-spacing="2">LUXU</text>
+</g>
+<rect x="0" y="415" width="1600" height="585" fill="#f8f5ef"/>
+<text x="90" y="480" fill="#89785e" font-family="Courier New" font-size="12" letter-spacing="3">CURATED FOR YOU</text><text x="90" y="535" fill="#211e19" font-family="Georgia,serif" font-size="42">Featured collection</text>
+<text x="1250" y="520" fill="#706554" font-family="Arial" font-size="13" letter-spacing="1">ALL  /  MASCULINE  /  FEMININE  /  UNISEX</text>
+<g filter="url(#luxshadow)">
+<rect x="90" y="575" width="330" height="300" fill="#e7ddcf"/><rect x="485" y="575" width="330" height="300" fill="#e4e2d8"/><rect x="880" y="575" width="330" height="300" fill="#e8dacf"/><rect x="1275" y="575" width="235" height="300" fill="#dfe1d7"/>
+<rect x="214" y="650" width="76" height="146" rx="10" fill="#8b7252" stroke="#594a37"/><rect x="235" y="627" width="34" height="24" fill="#332b21"/><rect x="225" y="710" width="54" height="42" fill="#e7d6bc"/><text x="252" y="736" fill="#433626" text-anchor="middle" font-family="Georgia,serif" font-size="10">LUXU</text>
+<rect x="604" y="642" width="92" height="155" rx="12" fill="#657369" stroke="#3b4b42"/><rect x="629" y="615" width="42" height="28" fill="#b7a581"/><rect x="614" y="700" width="72" height="49" fill="#e5e1d4"/><text x="650" y="729" fill="#3a433c" text-anchor="middle" font-family="Georgia,serif" font-size="11">LUXU</text>
+<rect x="1000" y="646" width="95" height="150" rx="12" fill="#b98e66" stroke="#6d4d35"/><rect x="1027" y="620" width="42" height="27" fill="#40372a"/><rect x="1010" y="700" width="75" height="48" fill="#eee3d1"/><text x="1048" y="729" fill="#4c3b2c" text-anchor="middle" font-family="Georgia,serif" font-size="11">LUXU</text>
+<rect x="1350" y="665" width="85" height="130" rx="10" fill="#a4a995" stroke="#576050"/><rect x="1372" y="640" width="40" height="25" fill="#343e34"/><rect x="1359" y="712" width="68" height="43" fill="#e5e3d5"/><text x="1393" y="738" fill="#3c4639" text-anchor="middle" font-family="Georgia,serif" font-size="11">LUXU</text>
+</g>
+<g fill="#29251f" font-family="Arial"><text x="90" y="914" font-size="17" font-weight="700">No. 01 — Amber Oud</text><text x="485" y="914" font-size="17" font-weight="700">No. 02 — Green Aura</text><text x="880" y="914" font-size="17" font-weight="700">No. 03 — Velvet Rose</text><text x="1275" y="914" font-size="17" font-weight="700">No. 04</text></g>
+<g fill="#88765f" font-family="Courier New" font-size="11"><text x="90" y="939">EAU DE PARFUM</text><text x="485" y="939">EAU DE PARFUM</text><text x="880" y="939">EAU DE PARFUM</text><text x="1275" y="939">COLLECTION</text></g>
+</svg>

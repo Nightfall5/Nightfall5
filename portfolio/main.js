@@ -280,9 +280,9 @@ initScene();
 
 const typedText = document.querySelector("#typed-text");
 const phrases = [
-  "building web experiences.",
-  "connecting design with engineering.",
-  "learning by shipping real projects."
+  "building web applications end to end.",
+  "connecting interfaces, APIs, and data.",
+  "turning practical needs into software."
 ];
 if (typedText && !reducedMotion) {
   let phraseIndex = 0;
