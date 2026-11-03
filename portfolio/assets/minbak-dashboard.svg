@@ -1,1 +1,154 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000"><defs><linearGradient id="g"><stop stop-color="#8b5cf6"/><stop offset="1" stop-color="#22d3ee"/></linearGradient><pattern id="p" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#94a3b8" stroke-opacity=".035"/></pattern><style>.s{font-family:Arial}.m{font-family:monospace}.w{fill:#f8fafc}.mut{fill:#94a3b8}.c{fill:#22d3ee}.pu{fill:#a78bfa}.am{fill:#fbbf24}.gr{fill:#34d399}</style></defs><rect width="1600" height="1000" fill="#0b1020"/><rect width="1600" height="1000" fill="url(#p)"/><rect width="260" height="1000" fill="#121a2b" stroke="#243252"/><rect x="25" y="24" width="45" height="45" rx="12" fill="url(#g)"/><path d="M51 34L38 53h10l-2 12 16-20H51z" fill="white"/><text x="84" y="47" class="s w" font-size="22" font-weight="700">MINBAK TI</text><text x="85" y="64" class="m c" font-size="9">MANAGEMENT HUB</text><rect x="22" y="98" width="216" height="62" rx="12" fill="#0b1322" stroke="#243252"/><text x="42" y="134" class="s pu" font-size="17">A</text><text x="78" y="123" class="s w" font-size="12" font-weight="700">Admin Workspace</text><text x="78" y="143" class="m mut" font-size="9">SUPER ADMIN</text><rect x="18" y="211" width="224" height="42" rx="8" fill="#8b5cf6" fill-opacity=".16" stroke="#22d3ee" stroke-opacity=".5"/><g class="s" font-size="12" fill="#cbd5e1"><text x="48" y="238" fill="#67e8f9">Ringkasan</text><text x="48" y="289">Data Mahasiswa</text><text x="48" y="340">Operasional Kompetisi</text><text x="48" y="391">Pendaftaran</text><text x="48" y="442">Manajemen Asesmen</text><text x="48" y="493">Prestasi</text><text x="48" y="544">Audit Log</text><text x="48" y="595">Pengaturan</text><text x="34" y="713" fill="#94a3b8">Eksplorasi Minat</text><text x="34" y="748" fill="#94a3b8">Kompetisi</text><text x="34" y="783" fill="#94a3b8">Prestasi Mahasiswa</text></g><text x="300" y="48" class="m mut" font-size="11">MINBAK TI / MANAGEMENT HUB / OVERVIEW</text><text x="300" y="119" class="s w" font-size="34" font-weight="700">Ringkasan Eksekutif &amp; Operasional</text><text x="302" y="150" class="s mut" font-size="14">Pantau data mahasiswa, kompetisi, pendaftaran, dan rekam prestasi.</text><rect x="1310" y="105" width="242" height="27" rx="7" fill="#182238" stroke="#8b5cf6"/><text x="1431" y="123" class="m pu" font-size="9" text-anchor="middle">SOURCE-ALIGNED UI PREVIEW</text><g><rect x="300" y="185" width="295" height="140" rx="13" fill="#121a2b" stroke="#243252"/><text x="324" y="222" class="m mut" font-size="10">MAHASISWA TERDATA</text><text x="324" y="277" class="m c" font-size="44">128</text><text x="324" y="302" class="s gr" font-size="11">96 Terverifikasi</text><rect x="610" y="185" width="295" height="140" rx="13" fill="#121a2b" stroke="#243252"/><text x="634" y="222" class="m mut" font-size="10">KOMPETISI TERBUKA</text><text x="634" y="277" class="m pu" font-size="44">08</text><text x="634" y="302" class="s mut" font-size="11">Siap Delegasi</text><rect x="920" y="185" width="295" height="140" rx="13" fill="#121a2b" stroke="#8b5cf6"/><text x="944" y="222" class="m mut" font-size="10">PERLU DITINJAU</text><text x="944" y="277" class="m am" font-size="44">03</text><text x="944" y="302" class="s am" font-size="11">Pendaftaran Mahasiswa</text><rect x="1230" y="185" width="320" height="140" rx="13" fill="#121a2b" stroke="#243252"/><text x="1254" y="222" class="m mut" font-size="10">PRESTASI TERVERIFIKASI</text><text x="1254" y="277" class="m gr" font-size="44">19</text><text x="1254" y="302" class="s mut" font-size="11">Rekam Jejak Juara</text></g><rect x="300" y="355" width="605" height="292" rx="14" fill="#121a2b" stroke="#243252"/><text x="326" y="392" class="s w" font-size="15" font-weight="700">Pendaftaran Menunggu Persetujuan Staf</text><text x="326" y="417" class="s mut" font-size="10">Pengajuan mahasiswa yang belum dikonfirmasi statusnya.</text><g><rect x="322" y="443" width="560" height="61" rx="8" fill="#0b1322" stroke="#243252"/><text x="340" y="468" class="s w" font-size="12">Mahasiswa / Peserta A</text><text x="340" y="488" class="s c" font-size="10">Kompetisi Teknologi Nasional</text><rect x="743" y="458" width="61" height="25" rx="5" fill="#064e3b" stroke="#059669"/><text x="773" y="475" class="s gr" font-size="9" text-anchor="middle">Setujui</text><rect x="812" y="458" width="55" height="25" rx="5" fill="#4c0519" stroke="#e11d48"/><text x="839" y="475" class="s" fill="#fda4af" font-size="9" text-anchor="middle">Tolak</text><rect x="322" y="515" width="560" height="61" rx="8" fill="#0b1322" stroke="#243252"/><text x="340" y="540" class="s w" font-size="12">Mahasiswa / Peserta B</text><text x="340" y="560" class="s c" font-size="10">UI/UX Design Challenge</text></g><rect x="925" y="355" width="625" height="292" rx="14" fill="#121a2b" stroke="#243252"/><text x="951" y="392" class="s w" font-size="15" font-weight="700">Tenggat Pendaftaran Terdekat</text><text x="951" y="417" class="s mut" font-size="10">Kompetisi yang segera menutup pendaftaran peserta.</text><rect x="949" y="443" width="575" height="60" rx="8" fill="#0b1322" stroke="#243252"/><text x="969" y="469" class="s w" font-size="12">Kompetisi Pengembangan Aplikasi</text><text x="969" y="489" class="s mut" font-size="10">Penyelenggara • Nasional</text><text x="1498" y="477" class="m am" font-size="11" text-anchor="end">12 NOV</text><rect x="949" y="514" width="575" height="60" rx="8" fill="#0b1322" stroke="#243252"/><text x="969" y="540" class="s w" font-size="12">UI / UX Design Challenge</text><text x="969" y="560" class="s mut" font-size="10">Penyelenggara • Regional</text><rect x="300" y="680" width="605" height="250" rx="14" fill="#121a2b" stroke="#243252"/><text x="326" y="720" class="s w" font-size="15" font-weight="700">Distribusi Minat Anggota Terdata</text><text x="326" y="745" class="s mut" font-size="10">Jumlah mahasiswa berdasarkan bidang minat.</text><g class="s" font-size="11"><text x="326" y="790" fill="#e2e8f0">Software Development</text><text x="873" y="790" text-anchor="end" class="c">72 mahasiswa</text><rect x="326" y="801" width="540" height="8" rx="4" fill="#0b1322"/><rect x="326" y="801" width="405" height="8" rx="4" fill="url(#g)"/><text x="326" y="842" fill="#e2e8f0">UI / UX Design</text><text x="873" y="842" text-anchor="end" class="c">44 mahasiswa</text><rect x="326" y="853" width="540" height="8" rx="4" fill="#0b1322"/><rect x="326" y="853" width="248" height="8" rx="4" fill="url(#g)"/></g><rect x="925" y="680" width="625" height="250" rx="14" fill="#121a2b" stroke="#243252"/><text x="951" y="720" class="s w" font-size="15" font-weight="700">Log Aktivitas &amp; Audit Terakhir</text><text x="951" y="745" class="s mut" font-size="10">Catatan aksi administrasi terbaru di aplikasi.</text><circle cx="963" cy="790" r="4" fill="#22d3ee"/><text x="981" y="794" class="s w" font-size="11">Data kompetisi diperbarui</text><text x="981" y="813" class="m mut" font-size="9">Admin · activity log</text><circle cx="963" cy="854" r="4" fill="#a78bfa"/><text x="981" y="858" class="s w" font-size="11">Pendaftaran mahasiswa ditinjau</text><text x="981" y="877" class="m mut" font-size="9">Staff · registration review</text><text x="300" y="976" class="m mut" font-size="9">MINBAK TI · ILLUSTRATIVE COUNTS AND ROW CONTENT</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+<title id="title">MINBAK TI — Homepage redesign preview</title>
+<desc id="desc">Source-aligned visual preview of the redesigned MINBAK TI public homepage, featuring a Denty-inspired light cyan palette and an interactive branching Talent Network concept. It is an illustration derived from the source design, not a browser screenshot.</desc>
+<defs>
+  <linearGradient id="page" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F7FAFB"/><stop offset="1" stop-color="#EAF3F6"/></linearGradient>
+  <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E6F7FA"/><stop offset=".55" stop-color="#DDF3F7"/><stop offset="1" stop-color="#F4FAFB"/></linearGradient>
+  <linearGradient id="core" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF"/><stop offset=".55" stop-color="#C5ECF3"/><stop offset="1" stop-color="#8BC9DA"/></linearGradient>
+  <linearGradient id="cta" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#091721"/><stop offset="1" stop-color="#214D62"/></linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7ABACB"/><stop offset="1" stop-color="#3D6C97"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#9BE2F3" stop-opacity=".85"/><stop offset="1" stop-color="#9BE2F3" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#9ABBC5" stroke-opacity=".12" stroke-width="1"/></pattern>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="13" stdDeviation="18" flood-color="#244C5D" flood-opacity=".12"/></filter>
+  <filter id="soft" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="22"/></filter>
+  <style>
+    .sans{font-family:Manrope,Arial,sans-serif}.mono{font-family:'DM Mono',Consolas,monospace}
+    .nav{font:600 13px Manrope,Arial,sans-serif;fill:#607985}.muted{fill:#718893}.ink{fill:#091721}
+    .branch{fill:none;stroke:url(#line);stroke-width:2.6;stroke-linecap:round;stroke-dasharray:6 9;opacity:.82;animation:flow 8s linear infinite}
+    .branch:nth-of-type(2n){animation-duration:11s;animation-direction:reverse}
+    .node{fill:#fff;stroke:#5FA2BE;stroke-width:3;filter:url(#shadow)}
+    .node-core{fill:url(#core);stroke:#4F91A7;stroke-width:2.5;filter:url(#shadow)}
+    .pulse{fill:none;stroke:#8BCFDF;stroke-width:1.5;opacity:.7;transform-box:fill-box;transform-origin:center;animation:pulse 3.6s ease-in-out infinite}
+    .label{font:700 10px 'DM Mono',Consolas,monospace;fill:#547A8A;letter-spacing:1px}
+    .pill{font:700 10px Manrope,Arial,sans-serif;fill:#406B7E}
+    @keyframes flow{to{stroke-dashoffset:-120}}
+    @keyframes pulse{0%,100%{transform:scale(.84);opacity:.32}50%{transform:scale(1.22);opacity:.82}}
+    @media(prefers-reduced-motion:reduce){.branch,.pulse{animation:none!important}}
+  </style>
+</defs>
+<rect width="1600" height="1000" fill="url(#page)"/>
+<rect width="1600" height="1000" fill="url(#grid)" opacity=".5"/>
+<!-- Public navigation -->
+<rect x="0" y="0" width="1600" height="94" fill="#FFFFFF"/>
+<path d="M0 93.5H1600" stroke="#DCE8EC"/>
+<rect x="57" y="24" width="46" height="46" rx="15" fill="#091721"/>
+<text x="80" y="55" text-anchor="middle" class="sans" font-size="22" font-weight="800" fill="#FFFFFF">M</text>
+<circle cx="94" cy="32" r="4" fill="#9BE2F3"/>
+<text x="116" y="45" class="sans ink" font-size="20" font-weight="800" letter-spacing="-1">MINBAK <tspan fill="#5FA2BE">TI</tspan></text>
+<text x="117" y="62" class="mono muted" font-size="8" letter-spacing="1.5">MINAT · BAKAT · PRESTASI</text>
+<g class="nav">
+  <text x="480" y="54" fill="#3D6C97">Beranda</text>
+  <text x="580" y="54">Eksplorasi Minat</text>
+  <text x="735" y="54">Kompetisi</text>
+  <text x="838" y="54">Asesmen</text>
+  <text x="925" y="54">Prestasi</text>
+  <text x="1018" y="54">Tentang Kami</text>
+</g>
+<rect x="1340" y="25" width="200" height="44" rx="22" fill="url(#cta)"/>
+<text x="1440" y="52" text-anchor="middle" class="sans" font-size="12" font-weight="800" fill="#FFFFFF">Mulai Asesmen ↗</text>
+<!-- Homepage hero -->
+<rect x="45" y="126" width="1510" height="515" rx="30" fill="url(#hero)" stroke="#D7EAF0"/>
+<circle cx="1378" cy="160" r="245" fill="none" stroke="#A8D9E5" stroke-opacity=".35"/>
+<circle cx="1378" cy="160" r="280" fill="none" stroke="#FFFFFF" stroke-opacity=".45"/>
+<circle cx="820" cy="640" r="120" fill="#BDEAF2" opacity=".25" filter="url(#soft)"/>
+<!-- Left copy -->
+<rect x="92" y="181" width="320" height="32" rx="16" fill="#FFFFFF" fill-opacity=".78" stroke="#C7E4EB"/>
+<circle cx="110" cy="197" r="4" fill="#5FA2BE"/>
+<text x="125" y="201" class="mono" font-size="9" fill="#557B8A" letter-spacing="1.2">DIVISI MINAT &amp; BAKAT HMIF · 2026</text>
+<text x="92" y="303" class="sans ink" font-size="61" font-weight="800" letter-spacing="-3">Kenali potensimu.</text>
+<text x="92" y="374" class="sans" font-size="61" font-weight="800" letter-spacing="-3" fill="#477E9C">Temukan jalurmu.</text>
+<text x="95" y="428" class="sans" font-size="17" fill="#5C7480">Setiap mahasiswa punya kekuatan yang bisa dikembangkan.</text>
+<text x="95" y="456" class="sans" font-size="17" fill="#5C7480">Temukan bidang yang sesuai, ikuti peluang kompetisi,</text>
+<text x="95" y="484" class="sans" font-size="17" fill="#5C7480">dan bangun perjalanan prestasimu bersama MINBAK TI.</text>
+<text x="96" y="527" class="mono" font-size="9" font-weight="700" letter-spacing="1.4" fill="#8AA0AA">MULAI DARI</text>
+<text x="185" y="527" class="sans" font-size="13" font-weight="800" fill="#3D6C97">Eksplorasi minatmu</text>
+<rect x="92" y="557" width="198" height="52" rx="26" fill="#091721"/>
+<text x="191" y="589" text-anchor="middle" class="sans" font-size="13" font-weight="800" fill="#FFFFFF">Mulai Asesmen   ↗</text>
+<rect x="304" y="557" width="222" height="52" rx="26" fill="#FFFFFF" fill-opacity=".72" stroke="#BBD9E2"/>
+<text x="415" y="589" text-anchor="middle" class="sans" font-size="13" font-weight="800" fill="#19313D">Jelajahi Kompetisi</text>
+<text x="95" y="624" class="sans" font-size="10" font-weight="700" fill="#718893">✳  Minat  ·  Kompetisi  ·  Partisipasi  ·  Prestasi</text>
+<!-- Talent network visual -->
+<rect x="817" y="160" width="690" height="438" rx="26" fill="#FFFFFF" fill-opacity=".54" stroke="#D4E9EF"/>
+<text x="846" y="190" class="mono" font-size="9" font-weight="700" letter-spacing="1.5" fill="#79929E">MINBAK / TALENT NETWORK</text>
+<circle cx="1455" cy="185" r="4" fill="#65B89C"/>
+<text x="1468" y="189" class="mono" font-size="8" font-weight="700" fill="#568C9F" text-anchor="end">NETWORK ACTIVE</text>
+<ellipse cx="1165" cy="385" rx="260" ry="162" fill="url(#glow)" opacity=".8"/>
+<g>
+  <path class="branch" d="M1165 382 C1080 346 1020 303 932 270"/>
+  <path class="branch" d="M1165 382 C1129 316 1114 264 1096 224"/>
+  <path class="branch" d="M1165 382 C1232 333 1303 293 1396 261"/>
+  <path class="branch" d="M1165 382 C1290 379 1360 387 1450 406"/>
+  <path class="branch" d="M1165 382 C1243 448 1310 489 1395 526"/>
+  <path class="branch" d="M1165 382 C1109 451 1076 493 1034 541"/>
+  <path class="branch" d="M1165 382 C1060 401 984 426 897 466"/>
+  <path class="branch" d="M1040 318 Q1004 305 981 321" stroke-width="1.4" opacity=".45"/>
+  <path class="branch" d="M1300 306 Q1336 310 1355 332" stroke-width="1.4" opacity=".45"/>
+  <path class="branch" d="M1265 465 Q1293 494 1271 512" stroke-width="1.4" opacity=".45"/>
+  <path class="branch" d="M1087 481 Q1050 501 1032 485" stroke-width="1.4" opacity=".45"/>
+</g>
+<!-- Network hub -->
+<circle cx="1165" cy="382" r="63" fill="#9BE2F3" opacity=".22"/>
+<circle cx="1165" cy="382" r="49" fill="none" stroke="#6BAFC2" stroke-opacity=".45" stroke-width="1.5"/>
+<circle cx="1165" cy="382" r="34" class="node-core"/>
+<text x="1165" y="378" text-anchor="middle" class="sans" font-size="12" font-weight="800" fill="#193744">MINBAK</text>
+<text x="1165" y="394" text-anchor="middle" class="sans" font-size="10" font-weight="800" fill="#477E96">TI</text>
+<circle cx="1165" cy="382" r="75" class="pulse"/>
+<!-- Branch nodes -->
+<g>
+  <circle cx="932" cy="270" r="16" class="node"/><circle cx="932" cy="270" r="25" class="pulse"/>
+  <circle cx="1096" cy="224" r="16" class="node"/><circle cx="1096" cy="224" r="24" class="pulse"/>
+  <circle cx="1396" cy="261" r="16" class="node"/><circle cx="1396" cy="261" r="24" class="pulse"/>
+  <circle cx="1450" cy="406" r="16" class="node"/><circle cx="1450" cy="406" r="24" class="pulse"/>
+  <circle cx="1395" cy="526" r="16" class="node"/><circle cx="1395" cy="526" r="24" class="pulse"/>
+  <circle cx="1034" cy="541" r="16" class="node"/><circle cx="1034" cy="541" r="24" class="pulse"/>
+  <circle cx="897" cy="466" r="16" class="node"/><circle cx="897" cy="466" r="24" class="pulse"/>
+  <circle cx="981" cy="321" r="7" fill="#80BDCC"/><circle cx="1355" cy="332" r="7" fill="#80BDCC"/>
+  <circle cx="1271" cy="512" r="7" fill="#80BDCC"/><circle cx="1032" cy="485" r="7" fill="#80BDCC"/>
+</g>
+<!-- Node labels -->
+<g class="label">
+  <text x="900" y="244" text-anchor="end">REKAYASA SOFTWARE</text>
+  <text x="1096" y="194" text-anchor="middle">AI &amp; DATA</text>
+  <text x="1426" y="236">KEAMANAN SIBER</text>
+  <text x="1477" y="410">UI / UX</text>
+  <text x="1423" y="557">DESAIN VISUAL</text>
+  <text x="1034" y="574" text-anchor="middle">OLAHRAGA</text>
+  <text x="866" y="494" text-anchor="end">KOMUNITAS</text>
+</g>
+<rect x="1294" y="556" width="175" height="26" rx="13" fill="#FFFFFF" stroke="#D9E9ED"/>
+<text x="1381" y="573" text-anchor="middle" class="mono" font-size="8" font-weight="700" fill="#648999">7 CONNECTED TALENT FIELDS</text>
+<!-- Statistics preview -->
+<g filter="url(#shadow)">
+  <rect x="55" y="681" width="360" height="112" rx="19" fill="#FFFFFF" stroke="#E0EAED"/>
+  <rect x="435" y="681" width="360" height="112" rx="19" fill="#FFFFFF" stroke="#E0EAED"/>
+  <rect x="815" y="681" width="360" height="112" rx="19" fill="#FFFFFF" stroke="#E0EAED"/>
+  <rect x="1195" y="681" width="350" height="112" rx="19" fill="#FFFFFF" stroke="#E0EAED"/>
+</g>
+<g class="mono" font-size="9" fill="#8298A1" letter-spacing="1">
+  <text x="82" y="714">MAHASISWA TERDATA</text><text x="462" y="714">KOMPETISI DIBUKA</text><text x="842" y="714">AKTIVITAS PARTISIPASI</text><text x="1222" y="714">PRESTASI TERVERIFIKASI</text>
+</g>
+<g class="sans" font-size="31" font-weight="800" fill="#477F99">
+  <text x="82" y="762">LIVE DATA</text><text x="462" y="762">LIVE DATA</text><text x="842" y="762">LIVE DATA</text><text x="1222" y="762">LIVE DATA</text>
+</g>
+<g class="sans" font-size="10" fill="#879AA2">
+  <text x="82" y="780">Terhubung dengan database aplikasi</text><text x="462" y="780">Terhubung dengan database aplikasi</text><text x="842" y="780">Terhubung dengan database aplikasi</text><text x="1222" y="780">Terhubung dengan database aplikasi</text>
+</g>
+<!-- Below-fold content preview -->
+<text x="57" y="858" class="mono" font-size="9" font-weight="700" letter-spacing="1.5" fill="#5F92A7">KATALOG BAKAT &amp; MINAT</text>
+<text x="57" y="895" class="sans ink" font-size="27" font-weight="800" letter-spacing="-1">Eksplorasi Bidang Keahlian</text>
+<text x="57" y="923" class="sans" font-size="12" fill="#718893">Jelajahi jalur peminatan dan kemampuan yang ingin kamu kembangkan.</text>
+<g>
+  <rect x="880" y="838" width="190" height="100" rx="15" fill="#FFFFFF" stroke="#DCE8EC"/>
+  <rect x="1082" y="838" width="190" height="100" rx="15" fill="#FFFFFF" stroke="#DCE8EC"/>
+  <rect x="1284" y="838" width="260" height="100" rx="15" fill="#FFFFFF" stroke="#DCE8EC"/>
+  <rect x="900" y="858" width="30" height="30" rx="10" fill="#E7F7FA"/><text x="915" y="878" text-anchor="middle" class="sans" font-size="14" fill="#477E96">⌘</text>
+  <text x="945" y="874" class="sans" font-size="12" font-weight="800" fill="#193744">Software</text><text x="945" y="891" class="sans" font-size="9" fill="#8298A1">Development</text>
+  <rect x="1102" y="858" width="30" height="30" rx="10" fill="#E7F7FA"/><text x="1117" y="878" text-anchor="middle" class="sans" font-size="14" fill="#477E96">✳</text>
+  <text x="1147" y="874" class="sans" font-size="12" font-weight="800" fill="#193744">Artificial</text><text x="1147" y="891" class="sans" font-size="9" fill="#8298A1">Intelligence</text>
+  <rect x="1304" y="858" width="30" height="30" rx="10" fill="#E7F7FA"/><text x="1319" y="878" text-anchor="middle" class="sans" font-size="14" fill="#477E96">◇</text>
+  <text x="1349" y="874" class="sans" font-size="12" font-weight="800" fill="#193744">UI / UX Design</text><text x="1349" y="891" class="sans" font-size="9" fill="#8298A1">Explore your creative side</text>
+</g>
+<rect x="1200" y="22" width="344" height="30" rx="15" fill="#E6F5F8" stroke="#CDE7ED"/>
+<text x="1372" y="41" text-anchor="middle" class="mono" font-size="8" font-weight="700" letter-spacing="1" fill="#477E96">SOURCE-ALIGNED UI PREVIEW · REDESIGN BRANCH</text>
+<text x="57" y="978" class="mono" font-size="8" fill="#8CA0A8" letter-spacing="1">MINBAK TI · ILLUSTRATIVE PAGE COMPOSITION · NOT A BROWSER CAPTURE</text>
+</svg>
