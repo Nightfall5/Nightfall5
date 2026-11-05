@@ -508,3 +508,21 @@ h1, h2, h3, p { margin-top: 0; }
   .minbak-inset-label{top:5px;left:5px;padding:4px 6px;font-size:6px}
   .minbak-preview-label{left:8px;bottom:8px;max-width:49%;padding:6px 7px;font-size:6px}
 }
+
+
+/* SensorKTP project preview — full browser frame, source-aligned UI mockup */
+.project-preview--sensorktp {
+  display: grid;
+  place-items: center;
+  padding: 10px;
+  background: radial-gradient(circle at 50% 48%, rgba(15, 118, 110, .12), transparent 62%), #080d13;
+}
+.project-preview--sensorktp img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.project-showcase:hover .project-preview--sensorktp img { filter: saturate(1.04); }
+@media (max-width: 720px) {
+  .project-preview--sensorktp { padding: 6px; }
+}
