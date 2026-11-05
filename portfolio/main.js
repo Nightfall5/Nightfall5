@@ -267,8 +267,8 @@ function toggleEnergyMode() {
   if (energyButton) {
     energyButton.setAttribute("aria-pressed", String(energyMode));
     energyButton.innerHTML = energyMode
-      ? '<span class="energy-icon">✦</span> ENERGY ACTIVATED'
-      : '<span class="energy-icon">✳</span> ACTIVATE ENERGY';
+      ? '<span class="energy-icon">✦</span> OBJECT INTERACTION ON'
+      : '<span class="energy-icon">✳</span> INTERACT WITH THE OBJECT';
   }
   if (controls) {
     controls.autoRotate = !reducedMotion && !energyMode;
@@ -280,9 +280,9 @@ initScene();
 
 const typedText = document.querySelector("#typed-text");
 const phrases = [
-  "building web applications end to end.",
-  "connecting interfaces, APIs, and data.",
-  "turning practical needs into software."
+  "build · test · improve.",
+  "connect interfaces, APIs, and data.",
+  "turn ideas into useful software."
 ];
 if (typedText && !reducedMotion) {
   let phraseIndex = 0;
