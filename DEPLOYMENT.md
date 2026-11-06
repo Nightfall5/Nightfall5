@@ -20,7 +20,7 @@ This document records the hosting standard for projects in the Nightfall5 accoun
 | --- | --- | --- | --- |
 | [Nightfall5](https://github.com/Nightfall5/Nightfall5) — Developer portfolio | Static HTML/CSS/JS + Three.js | Live | GitHub Pages |
 | [sensorktp](https://github.com/Nightfall5/sensorktp) — SensorKTP | React + TypeScript + Vite; browser-only image processing | Live | GitHub Pages |
-| [Landing-Page-Parfume](https://github.com/Nightfall5/Landing-Page-Parfume) — LUXU landing page | Static HTML/CSS/JS | Automatic workflow added; first publication pending | GitHub Pages |
+| [Landing-Page-Parfume](https://github.com/Nightfall5/Landing-Page-Parfume) — LUXU landing page | Static HTML/CSS/JS | Build passes; Pages not enabled for this repo yet. One-time Source=GitHub Actions activation is required. [Open Pages settings](https://github.com/Nightfall5/Landing-Page-Parfume/settings/pages). | GitHub Pages |
 | [Luxu_Parfume_Market-Place](https://github.com/Nightfall5/Luxu_Parfume_Market-Place) — TokoKita storefront | React + Vite + Supabase | Not deployed: requires Supabase URL/key, schema, and production RLS configuration | Static host + Supabase |
 | [MinatBakat-TI](https://github.com/Nightfall5/MinatBakat-TI) — MINBAK TI | Laravel 11 + PHP + relational database | Not deployed: requires a PHP application host, production database, app key, storage, and environment configuration | PHP application host |
 | [analisis-dan-design-pl](https://github.com/Nightfall5/analisis-dan-design-pl) — KuliaTrack | React + Vite + Express + file-backed data/uploads + SSE | Private repository; backend requires persistent application hosting and persistent storage | Node.js application host + persistent disk |
