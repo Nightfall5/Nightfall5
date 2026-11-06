@@ -1050,3 +1050,16 @@ body::before {
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+
+/* LUXU portfolio preview — preserve the full widescreen screenshot without cropping. */
+.project-preview--luxu {
+  aspect-ratio: 1920 / 913;
+  background: #171717;
+}
+.project-preview--luxu img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
