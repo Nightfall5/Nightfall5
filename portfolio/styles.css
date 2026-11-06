@@ -1058,8 +1058,10 @@ body::before {
   background: #171717;
 }
 .project-preview--luxu img {
+  display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
+  image-rendering: auto;
 }
