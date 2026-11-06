@@ -30,6 +30,10 @@ I'm an Informatics student and Web Developer interested in building practical we
 - **Interested in:** frontend engineering, UI/UX, API integration, and data-driven applications.
 - **Approach:** understand the problem, build a useful solution, refine the experience.
 
+## Project deployment policy
+
+Completed projects are published with a working HTTPS demo whenever their architecture and production requirements are ready. Static sites use GitHub Pages; backend-driven applications use hosting with the required server, database, and persistent storage. See [DEPLOYMENT.md](DEPLOYMENT.md) for the project deployment inventory and checklist.
+
 ## Explore my space
 
 <div align="center">
